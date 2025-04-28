@@ -26,6 +26,12 @@ docker exec -it <nom-du-conteneur> /bin/bash
 
 [^1]: Le dossier `usr/local/apache2/htdocs` correspond au dossier racine du site web du conteneur.
 
+
+Solution de l'Equipe 9
+
+docker cp ~/mon_site/index.html httpd-ton_nom:/usr/local/apache2/htdocs/index.html
+
+
 ## Membres de l'équipe
 
 **Equipe 15 :**
@@ -42,5 +48,10 @@ docker exec -it <nom-du-conteneur> /bin/bash
 - A2 - LE MEUR Pierre
 - A2 - SAHUC Maxime
 
+**Equipe 9 :**
 
+- B2 - VANHEESSCHE Quentin
+- B2 - GUTU Nichita 
+- B1 - Lucas Alexandre
+- B1 - Descourtis Laurent
 
